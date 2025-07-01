@@ -3,7 +3,7 @@ package HomeWork;
 import java.util.Arrays;
 
 public class hw4_6 {
-	public int[] problem6(int[] grade, int[] students) {
+	public void problem6(int[] grade, int[] students) {
 		
 		int[] test = Arrays.copyOf(grade, grade.length);
 		Arrays.sort(test);
@@ -13,7 +13,7 @@ public class hw4_6 {
 				students[i] = students[i]+1;
 			}
 		}
-		return students;
+//		return students;
 	}
 
 

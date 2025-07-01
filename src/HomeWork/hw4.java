@@ -67,7 +67,7 @@ public class hw4 {
 	    
 	    hw4_6 g = new hw4_6();
 	    for(int i = 0; i < grades.length; i++) {
-	    	student = g.problem6(grades[i],student);
+	    	g.problem6(grades[i],student); //student門牌號碼沒有變
 	    }
 	    for(int i = 0; i < student.length; i++) {
 	    	System.out.println(i+1 + "號" + student[i] + "次");
