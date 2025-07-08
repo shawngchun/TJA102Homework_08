@@ -26,18 +26,18 @@ public class hw1 {
 //}
 //某人在銀行存入150萬,銀行利率為2%,如果每年利息都繼續存入銀行,請用程式計算10年後,本
 //金加利息共有多少錢 (用複利計算,公式請自行google)
-//	static public void main(String[] args) {
-//	double a = 150000000, b = 0.02f, c = 10, d = a*Math.pow((1+b), c);
-//	System.out.println(d);
-//	}
+	static public void main(String[] args) {
+	double a = 150000000, b = 0.02f, c = 10, d = a*Math.pow((1+b), c);
+	System.out.println(d);
+	}
 //請寫一隻程式,利用System.out.println()印出以下三個運算式結果:
 //5 + 5
 //5 + ‘5’
 //5 + “5”
 //並請用註解各別說明答案的產生原因
-	static public void main(String[] args) {
-	System.out.println(5+5);
-	System.out.println(5+'5');
-	System.out.println(5+"5");
-	}
+//	static public void main(String[] args) {
+//	System.out.println(5+5);
+//	System.out.println(5+'5');
+//	System.out.println(5+"5");
+//	}
 }

@@ -11,24 +11,24 @@ public class CalTest {
 		
 		while (true) {
 			while (true) {
-			System.out.println("請輸入x的值：");
+				System.out.println("請輸入x的值：");
 			try {
-			Scanner sx = new Scanner(System.in);
-			x = sx.nextInt();
-			break;
+				Scanner sx = new Scanner(System.in);
+				x = sx.nextInt();
+				break;
 			} catch (InputMismatchException e) {
-			System.out.println("輸入格式不正確");
+				System.out.println("輸入格式不正確");
 			}
 			}
 			
 			while (true) {
-			System.out.println("請輸入y的值：");
+				System.out.println("請輸入y的值：");
 			try {
-			Scanner sy = new Scanner(System.in);
-			y = sy.nextInt();
-			break;
+				Scanner sy = new Scanner(System.in);
+				y = sy.nextInt();
+				break;
 			} catch (InputMismatchException e) {
-			System.out.println("輸入格式不正確");
+				System.out.println("輸入格式不正確");
 			}
 			}
 			
